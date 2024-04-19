@@ -1,0 +1,1 @@
+﻿Country,Year,Happiness Score,GDP per Capita,Social Support,Life Expectancy,Freedom,Generosity,Corruption
