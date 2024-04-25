@@ -1,5 +1,6 @@
-COUNTRY=$1
-FILE=$2
+country=$1
+file=$2
 
+fileoutput=$(sed "s/ /./g" <<< $country)
 
-grep "$COUNTRY" $FILE >> countries/"$COUNTRY".txt
+grep "$country" $file >> countries/"$fileoutput".txt
