@@ -17,7 +17,7 @@ set xrange[2006:2023]
 set yrange [0:10]
 set xtics 1
 set ytics .4
-plot "$FILE" using 2:3 with lines lc "black" lw 2 title "$COUNTRY Line"
+plot "$FILE" using 2:3 with boxes title "$COUNTRY Bar", "" using 2:3 with lines lc "black" lw 2 title "$COUNTRY Line"
 
 
 EOF
