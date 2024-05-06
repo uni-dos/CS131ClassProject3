@@ -1,0 +1,2 @@
+Country,Avg Happiness,Avg GDP,Avg Life Expectancy,Avg Freedom
+China,5.14,9.33,67.50,
